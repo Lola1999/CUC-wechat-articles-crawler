@@ -66,10 +66,10 @@ def get_url_title(html):
 #用webdriver启动谷歌浏览器，记得修改路径哈
 driver = webdriver.Chrome(executable_path='/Users/lara/Downloads/chromedriver')
 
-#这个需要通过老师扫码，会有点麻烦，可以用自己或朋友的微信公众号试试看
-# nickname = '中国传媒大学'# 公众号名称，想查谁都行
-# username =  'cuc-1954'# 账号
-# password = 'cucby65783912' # 密码
+#这个需要通过管理员扫码，可以用自己或朋友的微信公众号试试看
+#nickname = '中国传媒大学'# 公众号名称，想查谁都行
+#username = ''# 账号
+#password = '' # 密码
 
 login(username, password)
 open_link(nickname)
